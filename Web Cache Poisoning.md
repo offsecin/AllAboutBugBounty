@@ -154,7 +154,7 @@ Location: http://noshandnibble.blog/
 ```
 
 ##Summary
-Intercept request to any page say arbitrary static/normal request > check for reflection/get params/headers/path etc > inject> check your luck
+Intercept request to any page say arbitrary static/normal request > check for reflection/get params/headers/path etc and make sure the **response contains the cache** > inject> check your luck
 
 ## References
 * [Portswigger](https://portswigger.net/research/practical-web-cache-poisoning)
