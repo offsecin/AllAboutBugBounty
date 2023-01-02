@@ -153,6 +153,9 @@ HTTP/1.1 302 Found
 Location: http://noshandnibble.blog/
 ```
 
+##Summary
+Intercept request to any page say arbitrary static/normal request > check for reflection/get params/headers/path etc > inject> check your luck
+
 ## References
 * [Portswigger](https://portswigger.net/research/practical-web-cache-poisoning)
 * https://i.blackhat.com/us-18/Thu-August-9/us-18-Kettle-Practical-Web-Cache-Poisoning-Redefining-Unexploitable.pdf
